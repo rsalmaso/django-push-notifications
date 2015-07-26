@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """
 Google Cloud Messaging
 Previously known as C2DM
@@ -5,6 +7,7 @@ Documentation is available on the Android Developer website:
 https://developer.android.com/google/gcm/index.html
 """
 
+from __future__ import absolute_import, division, print_function, unicode_literals
 import json
 from .models import GCMDevice
 

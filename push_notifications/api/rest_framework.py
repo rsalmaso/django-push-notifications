@@ -1,4 +1,6 @@
-from __future__ import absolute_import
+# -*- coding: utf-8 -*-
+
+from __future__ import absolute_import, division, print_function, unicode_literals
 
 from rest_framework import permissions
 from rest_framework.serializers import ModelSerializer, ValidationError

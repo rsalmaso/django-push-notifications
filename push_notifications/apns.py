@@ -1,9 +1,12 @@
+# -*- coding: utf-8 -*-
+
 """
 Apple Push Notification Service
 Documentation is available on the iOS Developer Library:
 https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/ApplePushService.html
 """
 
+from __future__ import absolute_import, division, print_function, unicode_literals
 import codecs
 import json
 import ssl
