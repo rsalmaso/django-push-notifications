@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-from __future__ import unicode_literals
 
+from __future__ import absolute_import, division, print_function, unicode_literals
+from django.conf import settings
 from django.db import models, migrations
 import push_notifications.fields
-from django.conf import settings
 
 
 class Migration(migrations.Migration):
